@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Visualization Tool</title>
+    <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Data Visualization Tool</h1>
+    <p>Convert raw data into visual charts</p>
+
+    <div class="input-box">
+        <label>Enter values (comma separated):</label><br>
+        <input type="text" id="dataInput" placeholder="10,20,30">
+        <br><br>
+        <button onclick="generateChart()">Generate Chart</button>
+    </div>
+
+    <canvas id="myChart"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

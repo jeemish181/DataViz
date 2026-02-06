@@ -1,2 +1,0 @@
-# DataViz-
-data visualisation tool
